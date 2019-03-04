@@ -1,39 +1,19 @@
-<div class="list-group">
-    <!-- 
-      <table class="table table-hover">
-  <tr *ngFor="let mov of service.list">
-    <td>{{ mov.Name }}</td>
-    <td>Mabotja</td>
-  </tr>
-</table>  -->
-  
-   <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-     <div class="d-flex w-100 justify-content-between">
-       <h5 class="mb-1">Movie 1</h5>
-       <small>3 days ago</small>
-     </div>
-     <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-     <small>Donec id elit non mi porta.</small>
-     <button class="btn btn-success btn-sm" type="submit" [disabled]="form.invalid" style="float: right"><i class="fas fa-star"></i> Rate</button>
-   </a>
-   
-   <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-     <div class="d-flex w-100 justify-content-between">
-       <h5 class="mb-1">Movie 2</h5>
-       <small class="text-muted">3 days ago</small>
-     </div>
-     <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-     <small class="text-muted">Donec id elit non mi porta.</small>
-     <button class="btn btn-success btn-sm" type="submit" [disabled]="form.invalid" style="float: right"><i class="fas fa-star"></i> Rate</button>
-   </a>
-   <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-     <div class="d-flex w-100 justify-content-between">
-       <h5 class="mb-1">Movie 3</h5>
-       <small class="text-muted">3 days ago</small>
-     </div>
-     <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-     <small class="text-muted">Donec id elit non mi porta.</small>
-     <button class="btn btn-success btn-sm" type="submit" [disabled]="form.invalid" style="float: right"><i class="fas fa-star"></i> Rate</button>
-   </a>
- 
+<div class="list-group"> 
+    <table class="table table-hover">
+        <tr *ngFor="let mov of movieList1 | orderBy:order">
+           <a (click)="displayMovie(mov)" routerLink="../detail" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1"> {{ mov.name }}</h5>
+                <small> {{ mov.year }}</small>
+              </div>
+              <p class="mb-1">{{ mov.summary }}</p>
+              <small> {{ mov.category }}</small>
+              <div class="form-group row" style="float: right">
+                <div class="col-md-5">
+                    <button class="btn btn-sm" style="float: right" disabled><i class="fas fa-star"></i> {{mov.rating}} </button>
+                </div>
+              </div>
+            </a>
+        </tr>
+      </table>  
  </div>

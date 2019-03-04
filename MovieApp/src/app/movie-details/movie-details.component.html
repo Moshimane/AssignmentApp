@@ -1,13 +1,20 @@
-<div class="jumbtron">
-  <h1 class="display-4 text-center">Movie Management App</h1>
-  <hr>
-  <div class="row">
-    <div class="col-md-5">
-      <app-movie-detail></app-movie-detail>
+<div class="main-view">
+  <div>
+    <a class="list-group-item list-group-item-action flex-column align-items-start">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1"> {{ movieObservable.name }}</h5>
+        <small> <b>Year</b> : {{ movieObservable.year }}</small>
+      </div>
+      <p class="mb-1">{{ movieObservable.summary }}</p>
+      <div>
+      <small><b> Main Cast</b> : {{ movieObservable.starring }}</small>
     </div>
-    <div class="col-md-7">
-      <app-movie-detail-list></app-movie-detail-list>
+    <div>
+      <small><b> Genre</b> : {{ movieObservable.category }}</small>
     </div>
+    <div>
+      <small><b> Rating</b> : {{ movieObservable.rating }} star</small>
+    </div>
+    </a>
   </div>
 </div>
-

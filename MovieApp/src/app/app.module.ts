@@ -5,6 +5,8 @@ import { HttpClientModule } from "@angular/common/http";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { ToastrModule } from "ngx-toastr";
 
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
@@ -12,6 +14,10 @@ import { MovieDetailComponent } from './movie-details/movie-detail/movie-detail.
 import { MovieDetailListComponent } from './movie-details/movie-detail-list/movie-detail-list.component';
 import { MovieService } from './shared/movie.service';
 import { MovieRatingComponent } from './movie-rating/movie-rating.component';
+import { UpdateComponent } from './movie-details/update/update.component';
+import { FilterdataPipe } from 'src/app/filterdata.pipe';
+import { OrderpipePipe } from "src/app/orderpipe.pipe";
+
 
 
 @NgModule({
@@ -20,7 +26,10 @@ import { MovieRatingComponent } from './movie-rating/movie-rating.component';
     MovieDetailsComponent,
     MovieDetailComponent,
     MovieDetailListComponent,
-    MovieRatingComponent
+    MovieRatingComponent,
+    UpdateComponent,
+    FilterdataPipe,
+    OrderpipePipe
   ],
   imports: [
     BrowserModule,
@@ -28,7 +37,8 @@ import { MovieRatingComponent } from './movie-rating/movie-rating.component';
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    
   ],
   providers: [MovieService],
   bootstrap: [AppComponent]

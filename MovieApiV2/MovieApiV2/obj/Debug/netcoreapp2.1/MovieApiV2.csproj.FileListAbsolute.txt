@@ -1,0 +1,14 @@
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\bin\Debug\netcoreapp2.1\MovieApiV2.deps.json
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\bin\Debug\netcoreapp2.1\MovieApiV2.runtimeconfig.json
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\bin\Debug\netcoreapp2.1\MovieApiV2.runtimeconfig.dev.json
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\bin\Debug\netcoreapp2.1\MovieApiV2.dll
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\obj\Debug\netcoreapp2.1\MovieApiV2.csprojAssemblyReference.cache
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\obj\Debug\netcoreapp2.1\MovieApiV2.csproj.CoreCompileInputs.cache
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\obj\Debug\netcoreapp2.1\MovieApiV2.RazorAssemblyInfo.cache
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\obj\Debug\netcoreapp2.1\MovieApiV2.RazorAssemblyInfo.cs
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\obj\Debug\netcoreapp2.1\MovieApiV2.AssemblyInfoInputs.cache
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\obj\Debug\netcoreapp2.1\MovieApiV2.AssemblyInfo.cs
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\obj\Debug\netcoreapp2.1\MovieApiV2.RazorTargetAssemblyInfo.cache
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\bin\Debug\netcoreapp2.1\MovieApiV2.pdb
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\obj\Debug\netcoreapp2.1\MovieApiV2.dll
+C:\Users\Moshimane\Desktop\Nxgn Assignment\MovieApiV2\MovieApiV2\obj\Debug\netcoreapp2.1\MovieApiV2.pdb

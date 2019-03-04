@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Movie } from "src/app/shared/movie.model";
+import { MovieService } from "src/app/shared/movie.service";
 
 @Component({
   selector: 'app-movie-details',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./movie-details.component.scss']
 })
 export class MovieDetailsComponent implements OnInit {
-  
-  constructor() { }
+  private movieObservable:Movie;
+  constructor(private service:MovieService) { }
 
   ngOnInit() {
+    this.movieObservable = this.service.displayMov; //movie to be displayed
   }
+
 
 }
